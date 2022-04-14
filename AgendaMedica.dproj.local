@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/03/24 18:16:01.000.608,=C:\Users\Hubel\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2022/04/06 23:19:36.000.195,=C:\Users\Hubel\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2022/04/09 15:56:19.000.938,=C:\Users\Hubel\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2022/04/09 16:19:39.000.333,C:\Users\Hubel\Documents\Embarcadero\Studio\Projects\Unit5.fmx=D:\HSWARE\AgendaExcel\umain.fmx</Transaction>
+    <Transaction>2022/04/09 16:19:39.000.333,C:\Users\Hubel\Documents\Embarcadero\Studio\Projects\Unit5.pas=D:\HSWARE\AgendaExcel\umain.pas</Transaction>
+    <Transaction>2022/04/09 16:19:45.000.957,C:\Users\Hubel\Documents\Embarcadero\Studio\Projects\Project7.dproj=D:\HSWARE\AgendaExcel\AgendaExcel.dproj</Transaction>
+    <Transaction>2022/04/14 17:50:41.000.393,C:\Users\Asus\Desktop\AgendaExcel\umain.pas=C:\Users\Asus\Documents\Construcción\ExamenMedioCurso\umain.pas</Transaction>
+    <Transaction>2022/04/14 17:50:41.000.393,C:\Users\Asus\Desktop\AgendaExcel\umain.fmx=C:\Users\Asus\Documents\Construcción\ExamenMedioCurso\umain.fmx</Transaction>
+    <Transaction>2022/04/14 17:52:15.000.357,C:\Users\Asus\Desktop\AgendaExcel\AgendaExcel.dproj=C:\Users\Asus\Documents\Construcción\ExamenMedioCurso\AgendaMedica.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
