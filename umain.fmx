@@ -1,0 +1,164 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Form5'
+  ClientHeight = 480
+  ClientWidth = 398
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 430.000000000000000000
+    Size.Width = 398.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Button1: TButton
+      Position.X = 10.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Atenciones'
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Position.X = 90.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'B'#250'squeda'
+      OnClick = Button2Click
+    end
+    object Button3: TButton
+      Position.X = 170.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 103.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Historial M'#233'dico'
+      OnClick = Button3Click
+    end
+    object Button4: TButton
+      Position.X = 290.000000000000000000
+      Position.Y = 12.000000000000000000
+      TabOrder = 3
+      Text = 'Button4'
+      OnClick = Button4Click
+    end
+  end
+  object Panel2: TPanel
+    Align = Client
+    Size.Width = 398.000000000000000000
+    Size.Height = 430.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Hoja1: TPanel
+      Align = Client
+      Size.Width = 398.000000000000000000
+      Size.Height = 430.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+      TabOrder = 0
+      object Rejilla: TStringGrid
+        Align = Client
+        CanFocus = True
+        ClipChildren = True
+        Size.Width = 398.000000000000000000
+        Size.Height = 430.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        RowHeight = 16.000000000000000000
+        RowCount = 20
+        Viewport.Width = 394.000000000000000000
+        Viewport.Height = 405.000000000000000000
+      end
+    end
+    object Hoja2: TPanel
+      Align = Client
+      Size.Width = 398.000000000000000000
+      Size.Height = 430.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Panel3: TPanel
+        Align = Top
+        Size.Width = 398.000000000000000000
+        Size.Height = 73.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Label2: TLabel
+          Position.X = 10.000000000000000000
+          Position.Y = 16.000000000000000000
+          Size.Width = 199.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Ingresar nombre del Cliente:'
+        end
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          Position.X = 10.000000000000000000
+          Position.Y = 41.000000000000000000
+          Size.Width = 151.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Button5: TButton
+          Position.X = 180.000000000000000000
+          Position.Y = 41.000000000000000000
+          Size.Width = 125.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Buscar'
+          OnClick = Button5Click
+        end
+      end
+      object lista: TListBox
+        Align = Client
+        Size.Width = 398.000000000000000000
+        Size.Height = 357.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 394.000000000000000000
+        Viewport.Height = 353.000000000000000000
+      end
+    end
+    object Hoja3: TPanel
+      Align = Client
+      Size.Width = 398.000000000000000000
+      Size.Height = 430.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+      TabOrder = 2
+      object mmoDatos: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Lines.Strings = (
+          'DNI'#9'FECHANACIMIENTO'#9'NOMBRES'#9'APELLIDOS'#9'ATENCIONES'
+          '40524211'#9'18/03/1979'#9'HUBEL'#9'SOLIS'#9'20200502'
+          '40050022'#9'01/01/2000'#9'JOSE'#9'PEREZ'#9'20190408'
+          '40524211'#9'18/03/1979'#9'HUBEL'#9'SOLIS'#9'20210606'
+          '60050021'#9'02/02/2015'#9'LUIS'#9'SOTO'#9'20180806')
+        OnChange = mmoDatosChange
+        Align = Client
+        Size.Width = 398.000000000000000000
+        Size.Height = 430.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 394.000000000000000000
+        Viewport.Height = 410.000000000000000000
+      end
+    end
+  end
+end
